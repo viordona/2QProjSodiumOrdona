@@ -1,0 +1,334 @@
+/* The way the code is ordered is similar to the site and itself (Header, Navigation, Aside, Body Content, and Footer content). */
+
+
+/* The code below is for the settings of the website as a whole */
+:root{
+	background-color: #FEF9FA;
+}
+
+* {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#LoveBug{
+	width:1125px;
+	height: 2930px;
+	margin-top: -50px;
+    margin-left:auto;
+    margin-right:auto;
+	padding: 65px;
+}
+
+
+/* The code below shows the code for the header. */
+#Title {
+    display: block;
+    clear: right;	
+	height: 100px;
+	margin:auto;
+}
+
+#TitleDescription {
+    margin-top: -1px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+#DummySearchBar input[type=text] {
+	float: right;
+	border: 1px solid black;
+    padding: 10px;
+    margin-top: 8px;
+	width: 175px;
+    font-size: 20px;
+}
+
+input[type=text]{
+	background-color: #E5BCC5;
+}
+
+input[type=text]:focus{
+	background-color: pink;
+}
+
+#DummySearchBar > button {
+    float: right;
+    border: 1px solid black;
+	width: 50px;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #E5BCC5;
+    font-size: 20px;	
+	cursor: pointer;
+}
+
+#DummySearchBar button img {
+    width: 18px;
+	height: 15px;
+	background-color: #E5BCC5;
+}
+
+hr {
+    border-top: 2px solid black;
+}
+
+/* The code below is the code for navigation. */
+#PAGES {
+	display:flex;
+	justify-content:center; 
+	border-top: 2px solid black;
+    padding: 10px; 	
+	list-style-type: none;
+	margin-top: -22px;
+	margin-bottom: -28.5px;
+}
+
+#PAGES li {
+    display: block;
+	float: left;
+	margin-top: -10px;
+	margin-bottom: -25px;
+    padding: 10px 20px 10px 20px;
+}
+
+#LinkHover {
+	color: black;
+	text-decoration: none;
+}
+
+#LinkHover:hover{
+	color: #F471A8;
+}
+
+#Emphasis {
+	color:#F471A8
+}
+
+#Breadcrumb {	
+	color: #BF5380;
+	text-decoration: none;
+    text-indent: 6px;
+	list-style-type: none;
+}
+
+#Breadcrumb li {
+	float:left;
+}
+	
+#Breadcrumb a {	
+	color: #BF5380;
+	text-decoration: none;
+}
+
+#Breadcrumb a:hover{
+	text-decoration: underline;
+}	
+
+/* The segment below shows the back to top button on the side. */
+#BackToTop { 
+	position:fixed;
+	display: block;
+	width: 70px;	
+	height: 60px;
+	margin-top: 114.2px;
+	margin-left: 1095px;
+}	
+
+/*The segments of code below make up the content of the body content.*/
+/* The code below makes up the code for all the text. */
+#BodyHeader{
+	margin-top: 50px;
+	font-size: 35px;
+	text-align: center;
+}
+
+
+#Text1 {	
+	float: right;
+	margin-top: 75px;
+	margin-right: 465px;
+}
+
+#Text2 {
+	float: left;
+	margin-top: -1155px;
+	margin-left: 60px;
+}
+
+#Text3 {
+	float: right;
+	margin-top: -885px;
+	margin-right: 190px;
+}
+
+#Text4 {
+	float: left;
+	margin-top: -680px;
+	margin-right: 10px;
+}
+
+#List1 {
+	float: right;
+	margin-top: -490px;
+	margin-left: 565px;
+}
+
+#List2 {
+	float: left;
+	margin-top: -1115px;
+	margin-left: 40px;
+}
+
+#List3 {
+	float: right;
+	margin-top: -840px;
+	margin-left: 565px;
+}
+
+#List4 {
+	float: left;
+	margin-top: -635px;
+	margin-left: -20px;
+}
+
+#List1 li, #List2 li,#List3 li, #List4 li{
+	padding: 5px;
+	font-size: 20px;
+}
+
+#BodyTextCenter {
+	margin-top:-40px;
+	text-align: center;
+}
+
+#BodyTextCenter a, #LinkHover2 {
+	color:black;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+#BodyTextCenter a:hover, #LinkHover2:hover {
+	color: #F471A8;
+}
+	
+#Sources {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+#Sources:hover{
+	color: #F471A8;
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* The code below styles all the images on this page. */
+#Overflow {
+	overflow: hidden;
+}
+
+#Image1 {
+	margin-top: -320px;
+	margin-left: -400px;
+	margin-right: -1000px;
+	transform: scale(0.35,0.35);
+}
+
+#Image2 {
+	margin-top: -1060px;
+	margin-left: 250px;
+	transform: rotate(15deg) scale(0.23,0.23);
+}
+
+#Image3 {
+	margin-top: -1360px;
+	margin-left: -875px;
+	transform: scale(0.23,0.23);
+}
+
+#Image4 {
+	margin-top: -700px;
+	margin-left: 450px;
+	transform: scale(0.6,0.6);
+}
+
+
+/* The code below showcases the content of the footer. */
+#FooterItalic {
+	font-style: italic;
+}
+
+#FooterInfo {
+	float: left;
+	border-spacing: 20px;
+	width: 430px;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 20px;
+}
+
+#FooterInfo2 {
+	float: left;
+	border-spacing: 20px;
+	width: 600px;
+	text-align: left;
+	font-size: 20px;
+}
+
+#FooterInfo2 a {
+	color: black;
+	text-decoration: none;	
+}
+
+#FooterImages {
+	width: 250px;
+	padding: 0px;
+	list-style-type: none;	
+}
+
+#FooterImages li{
+	display: block;
+	float: left;
+	margin-top:-10px;
+    padding: 2px;
+}
+
+#FooterImages div {
+	margin-top: -20px;
+	margin-left: -1.75px;
+	width: 60px;
+	height:60px;
+}
+
+#FacebookSprite {
+	background: url("../images/Facebook.png") no-repeat;
+}
+
+#TwitterSprite {
+	background: url("../images/Twitter.png") no-repeat;
+}
+
+#InstagramSprite {
+	background: url("../images/Instagram.png") no-repeat;
+}
+
+#PinterestSprite {
+	background: url("../images/Pinterest.png") no-repeat;
+}
+
+#FacebookSprite:hover {
+	background: url("../images/Facebook2.png") no-repeat;
+}
+
+#TwitterSprite:hover {
+	background: url("../images/Twitter2.png") no-repeat ;
+}
+
+#InstagramSprite:hover {
+	background: url("../images/Instagram2.png") no-repeat;
+}
+
+#PinterestSprite:hover {
+	background: url("../images/Pinterest2.png") no-repeat;
+}

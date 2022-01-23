@@ -1,0 +1,87 @@
+/* The code below is for the settings of the website as a whole */
+:root{
+	background-color: #FEF9FA;
+}
+
+*{
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* The code below makes up the only content of the page. */
+#Load {
+	position: fixed;
+	margin-top: -100px;
+	width: 100%;
+	height: 100%;
+	background: #FEF9FA url(../images/Loading/GiftBox.gif) no-repeat center -40px;
+	background-size: 50%;
+	animation-fill-mode: forwards;
+	animation-name: Loading;
+	animation-duration: 6.5s;
+	opacity: 1;
+}
+
+#LoadingText {
+	margin-top: 320px;
+	font-size: 20px;
+	text-align:center;
+	color: #FD7C8D;
+}
+
+@keyframes Loading {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+#Success {
+	animation-fill-mode: forwards;
+	animation-name: Success;
+	animation-duration: 20s;
+	opacity: 0;
+}
+
+#SuccessHeader { 
+	margin-top: 175px;
+	color: #FD7C8D;
+	text-align: center;
+	font-size: 50px;
+}
+
+#SuccessText {
+	margin-top: -30px;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+
+#SuccessSubText {
+	margin-top: -15px;
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+
+#Home {
+	z-index: 1;
+	padding: 12px;
+	color: white;
+	background-color: #FD7C8D;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+#HomeButton {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#Home:hover {
+	font-size: 16px;
+}
+
+@keyframes Success{
+   from {opacity: 0;}
+   to {opacity: 1;}
+}
+

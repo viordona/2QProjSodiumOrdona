@@ -1,0 +1,300 @@
+/* The way the code is ordered is similar to the site and itself (Header, Navigation, Aside, Body Content, and Footer content). */
+
+
+/* The code below is for the settings of the website as a whole */
+:root{
+	background-color: #FEF9FA;
+}
+
+*{
+font-family: Georgia, "Times New Roman", serif;
+}
+
+#LoveBug{
+	width:1125px;
+	height: 1980px;
+	margin-top: -50px;
+    margin-left:auto;
+    margin-right:auto;
+	padding: 65px;
+}
+
+
+/* The code below shows the code for the header. */
+#Title {
+    display: block;
+    clear: right;	
+	height: 100px;
+	margin:auto;
+}
+
+#TitleDescription {
+    margin-top: -1px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+#DummyInput {
+	float: right;
+	border: 1px solid black;
+    padding: 10px;
+    margin-top: 8px;
+	width: 175px;
+    font-size: 20px;
+	background-color: #E5BCC5;
+}
+
+#DummyInput:focus{
+	background-color: pink;
+}
+
+#DummySearchBar > button {
+    float: right;
+    border: 1px solid black;
+	width: 50px;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #E5BCC5;
+    font-size: 20px;	
+	cursor: pointer;
+}
+
+#DummySearchBar button img {
+    width: 18px;
+	height: 15px;
+	background-color: #E5BCC5;
+}
+
+hr {
+    border-top: 2px solid black;
+}
+
+/* The code below is the code for navigation. */
+#PAGES {
+	display:flex;
+	justify-content:center; 
+	border-top: 2px solid black;
+    padding: 10px; 	
+	list-style-type: none;
+	margin-top: -22px;
+	margin-bottom: -28.5px;
+}
+
+#PAGES li {
+    display: block;
+	float: left;
+	margin-top: -10px;
+	margin-bottom: -25px;
+    padding: 10px 20px 10px 20px;
+}
+
+#LinkHover {
+	color: black;
+	text-decoration: none;
+}
+
+#LinkHover:hover{
+	color: #F471A8;
+}
+
+#Emphasis {
+	color:#F471A8
+}
+
+#Breadcrumb {	
+	color: #BF5380;
+	text-decoration: none;
+    text-indent: 6px;
+	list-style-type: none;
+}
+
+#Breadcrumb li {
+	float:left;
+}
+	
+#Breadcrumb a {	
+	color: #BF5380;
+	text-decoration: none;
+}
+
+#Breadcrumb a:hover{
+	text-decoration: underline;
+}	
+
+/* The segment below shows the back to top button on the side. */
+#BackToTop { 
+	position:fixed;
+	display: block;
+	width: 70px;	
+	height: 60px;
+	margin-top: 114.2px;
+	margin-left: 1095px;
+}	
+
+/*The segment of code below makes up the body content of the page.*/
+
+#BodyHeader {
+	margin-top: 60px;
+	font-size: 35px;
+	text-align: center;
+}
+
+.BodyTextCenter {
+	width: 1025px;
+	margin-left: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.BodyTextCenter a{
+	color: black;
+	text-decoration: none;		
+}
+
+.BodyTextCenter a:hover {
+	color: #F471A8;
+}
+
+.InputLong {
+	width: 550px;
+}
+
+.InputShort{
+	width: 300px;
+}
+
+.InputLong, .InputShort {
+	height: 20px;
+    padding: 5px;	
+	border: 1px solid black;
+	background-color: #D9D9D9;
+}
+
+.DateOptions {
+	width: 100px;
+}
+
+.Options {
+	width: 150px;
+}
+
+.DateOptions, .Options {
+	height:30px;
+	font-size: 15px;
+	background-color: #D9D9D9;
+}
+
+.InputLong:focus, .InputShort:focus, .DateOptions:focus, .Options:focus {
+	border: 1.5px solid black;
+	background-color: #CCCBC9;
+}
+
+#Submit {
+	padding: 12px;
+	color: white;
+	background-color: #CE6380;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#SubmitButton {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#SubmitButton a:hover {
+	font-size: 20px;
+}
+
+#Sources {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+#Sources:hover{
+	color: #F471A8;
+	text-align: center;
+	text-decoration: underline;
+}
+
+/* The code below showcases the content of the footer. */
+#FooterItalic {
+	font-style: italic;
+}
+
+#FooterInfo {
+	float: left;
+	border-spacing: 20px;
+	width: 430px;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 20px;
+}
+
+#FooterInfo2 {
+	float: left;
+	border-spacing: 20px;
+	width: 600px;
+	text-align: left;
+	font-size: 20px;
+}
+
+#FooterInfo2 a {
+	color: black;
+	text-decoration: none;	
+}
+
+#FooterImages {
+	width: 250px;
+	padding: 0px;
+	list-style-type: none;	
+}
+
+#FooterImages li{
+	display: block;
+	float: left;
+	margin-top:-10px;
+    padding: 2px;
+}
+
+#FooterImages div {
+	margin-top: -20px;
+	margin-left: -1.75px;
+	width: 60px;
+	height:60px;
+}
+
+#FacebookSprite {
+	background: url("../images/Facebook.png") no-repeat;
+}
+
+#TwitterSprite {
+	background: url("../images/Twitter.png") no-repeat;
+}
+
+#InstagramSprite {
+	background: url("../images/Instagram.png") no-repeat;
+}
+
+#PinterestSprite {
+	background: url("../images/Pinterest.png") no-repeat;
+}
+
+#FacebookSprite:hover {
+	background: url("../images/Facebook2.png") no-repeat;
+}
+
+#TwitterSprite:hover {
+	background: url("../images/Twitter2.png") no-repeat ;
+}
+
+#InstagramSprite:hover {
+	background: url("../images/Instagram2.png") no-repeat;
+}
+
+#PinterestSprite:hover {
+	background: url("../images/Pinterest2.png") no-repeat;
+}
